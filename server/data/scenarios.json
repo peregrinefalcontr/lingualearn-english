@@ -1,0 +1,297 @@
+[
+  {
+    "id": "scenario-airport",
+    "title": "Havalimanı & Pasaport Kontrolü",
+    "englishTitle": "At the Airport & Passport Control",
+    "icon": "Plane",
+    "category": "Seyahat",
+    "description": "Uçuş öncesi bilet kontrolü, bagaj teslimi ve pasaport memuru ile yapılan standart İngilizce diyalog.",
+    "dialogues": [
+      { "speaker": "Officer", "textEn": "Good morning. May I see your passport and boarding pass, please?", "textTr": "Günaydın. Pasaportunuzu ve biniş kartınızı görebilir miyim lütfen?" },
+      { "speaker": "Traveler", "textEn": "Good morning. Here they are.", "textTr": "Günaydın. Buyrun buradalar." },
+      { "speaker": "Officer", "textEn": "What is the purpose of your visit to the United Kingdom?", "textTr": "Birleşik Krallık'ı ziyaret amacınız nedir?" },
+      { "speaker": "Traveler", "textEn": "I am here for a holiday and to visit some friends.", "textTr": "Tatil için ve birkaç arkadaşımı ziyaret etmek için buradayım." },
+      { "speaker": "Officer", "textEn": "How long do you intend to stay in the country?", "textTr": "Ülkede ne kadar kalmayı planlıyorsunuz?" },
+      { "speaker": "Traveler", "textEn": "I will stay for two weeks. Here is my return flight ticket.", "textTr": "İki hafta kalacağım. İşte dönüş biletim." },
+      { "speaker": "Officer", "textEn": "Where will you be staying during your visit?", "textTr": "Ziyaretiniz sırasında nerede kalacaksınız?" },
+      { "speaker": "Traveler", "textEn": "I booked a room at the Central Hotel in London.", "textTr": "Londra'daki Central Hotel'de bir oda ayırttım." },
+      { "speaker": "Officer", "textEn": "Everything looks in order. Enjoy your stay in London!", "textTr": "Her şey yolunda görünüyor. Londra'daki konaklamanızın tadını çıkarın!" },
+      { "speaker": "Traveler", "textEn": "Thank you very much. Have a great day!", "textTr": "Çok teşekkür ederim. İyi günler dilerim!" }
+    ],
+    "keyPhrases": [
+      { "phrase": "Here is my passport.", "meaning": "İşte pasaportum." },
+      { "phrase": "What is the purpose of your visit?", "meaning": "Ziyaretinizin amacı nedir?" },
+      { "phrase": "I am here on vacation.", "meaning": "Burada tatil için bulunuyorum." },
+      { "phrase": "Here is my return ticket.", "meaning": "İşte dönüş biletim." }
+    ],
+    "quiz": [
+      {
+        "question": "Pasaport memuru ziyaretinizin amacını sormak için hangi cümleyi kullanır?",
+        "options": ["What is your name?", "What is the purpose of your visit?", "Where is your luggage?", "How much money do you have?"],
+        "answerIndex": 1,
+        "explanation": "'Purpose of your visit' ziyaret amacı anlamına gelir."
+      },
+      {
+        "question": "'I will stay for two weeks.' ne anlama gelir?",
+        "options": ["İki gün kalacağım.", "İki hafta kalacağım.", "İki aydır buradayım.", "İki kişi kalacağız."],
+        "answerIndex": 1,
+        "explanation": "'Two weeks' iki hafta demektir."
+      },
+      {
+        "question": "'May I see your boarding pass?' sorusuna verilecek en kibar cevap hangisidir?",
+        "options": ["No, you can't.", "Here it is, sir.", "I don't know.", "What is that?"],
+        "answerIndex": 1,
+        "explanation": "'Here it is' (İşte buyrun) en kibar ve doğal yanıttır."
+      },
+      {
+        "question": "'Return flight ticket' ne anlama gelir?",
+        "options": ["Tek yön bilet", "Dönüş uçak bileti", "İptal edilen bilet", "Otobüs bileti"],
+        "answerIndex": 1,
+        "explanation": "'Return ticket' gidiş-dönüş veya dönüş biletini ifade eder."
+      },
+      {
+        "question": "Memur 'Enjoy your stay!' dediğinde ne demelisiniz?",
+        "options": ["Thank you very much!", "I am sorry.", "Excuse me.", "Never mind."],
+        "answerIndex": 0,
+        "explanation": "İyi dilek belirtildiğinde teşekkür edilir: 'Thank you very much!'."
+      }
+    ]
+  },
+  {
+    "id": "scenario-restaurant",
+    "title": "Kafe & Restoranda Sipariş Verme",
+    "englishTitle": "At the Cafe & Restaurant",
+    "icon": "Coffee",
+    "category": "Yemek & Sosyal",
+    "description": "Masa ayırtma, menü isteme, içecek/yemek siparişi verme ve hesap isteme kalıpları.",
+    "dialogues": [
+      { "speaker": "Waiter", "textEn": "Good evening! Welcome to our restaurant. A table for two?", "textTr": "İyi akşamlar! Restoranımıza hoş geldiniz. İki kişilik bir masa mı?" },
+      { "speaker": "Customer", "textEn": "Yes, please. Could we sit by the window?", "textTr": "Evet lütfen. Pencere kenarına oturabilir miyiz?" },
+      { "speaker": "Waiter", "textEn": "Certainly! Right this way. Here are your menus.", "textTr": "Tabii ki! Bu taraftan lütfen. İşte menüleriniz." },
+      { "speaker": "Customer", "textEn": "Thank you. Could you recommend a popular local dish?", "textTr": "Teşekkürler. Popüler bir yerel yemek tavsiye edebilir misiniz?" },
+      { "speaker": "Waiter", "textEn": "Our grilled salmon with lemon butter sauce is delicious tonight.", "textTr": "Limon tereyağı soslu ızgara somonumuz bu akşam çok lezzetli." },
+      { "speaker": "Customer", "textEn": "That sounds great! I would like to order that, please.", "textTr": "Kulağa harika geliyor! Ondan sipariş etmek isterim lütfen." },
+      { "speaker": "Waiter", "textEn": "And what would you like to drink?", "textTr": "Peki içecek olarak ne arzu edersiniz?" },
+      { "speaker": "Customer", "textEn": "Just a glass of sparkling water, please.", "textTr": "Sadece bir bardak maden suyu lütfen." },
+      { "speaker": "Customer", "textEn": "Excuse me, could we have the bill, please?", "textTr": "Afedersiniz, hesabı alabilir miyiz lütfen?" },
+      { "speaker": "Waiter", "textEn": "Of course! Would you like to pay with cash or credit card?", "textTr": "Elbette! Nakit mi yoksa kredi kartıyla mı ödemek istersiniz?" }
+    ],
+    "keyPhrases": [
+      { "phrase": "Could we have the bill, please?", "meaning": "Hesabı alabilir miyiz lütfen?" },
+      { "phrase": "I would like to order...", "meaning": "... sipariş etmek isterim." },
+      { "phrase": "Could you recommend...?", "meaning": "... tavsiye edebilir misiniz?" },
+      { "phrase": "Can I pay by credit card?", "meaning": "Kredi kartıyla ödeyebilir miyim?" }
+    ],
+    "quiz": [
+      {
+        "question": "Restoranda hesabı istemek için hangisi söylenir?",
+        "options": ["Could we have the bill, please?", "Where is the kitchen?", "I don't like this food.", "What time is it?"],
+        "answerIndex": 0,
+        "explanation": "'Could we have the bill, please?' hesabı istemenin en yaygın ve kibar yoludur."
+      },
+      {
+        "question": "'A table for two, please.' ne anlama gelir?",
+        "options": ["İki saatlik masa lütfen.", "İki kişilik bir masa lütfen.", "İkinci masaya oturalım.", "İki tabak yemek lütfen."],
+        "answerIndex": 1,
+        "explanation": "'A table for two' iki kişilik masa demektir."
+      },
+      {
+        "question": "'I would like to order the grilled chicken.' cümlesinin anlamı nedir?",
+        "options": ["Izgara tavuk sipariş etmek isterim.", "Tavukları sevmiyorum.", "Izgara tavuk çok pahalı.", "Tavuk siparişim nerede?"],
+        "answerIndex": 0,
+        "explanation": "'I would like to order' sipariş vermek isterim demektir."
+      },
+      {
+        "question": "Garson 'Would you like to pay by card or cash?' dediğinde neyi sormaktadır?",
+        "options": ["Yemeği beğenip beğenmediğinizi", "Kartla mı nakit mi ödeyeceğinizi", "Yeniden sipariş verip vermeyeceğinizi", "Kaç kişi olduğunuzu"],
+        "answerIndex": 1,
+        "explanation": "'Card or cash' kartla mı nakitle mi ödeneceğini sorar."
+      },
+      {
+        "question": "Pencere kenarında oturmak istediğinizi nasıl belirtirsiniz?",
+        "options": ["Could we sit by the window?", "Is the window open?", "Close the window!", "Look at the window."],
+        "answerIndex": 0,
+        "explanation": "'Could we sit by the window?' pencere kenarına oturabilir miyiz anlamına gelir."
+      }
+    ]
+  },
+  {
+    "id": "scenario-hotel",
+    "title": "Otelde Check-in & Konaklama",
+    "englishTitle": "Hotel Check-in & Requests",
+    "icon": "Building",
+    "category": "Konaklama",
+    "description": "Otele giriş yapma, rezervasyon bildirme, Wi-Fi şifresi ve kahvaltı saatlerini sorma.",
+    "dialogues": [
+      { "speaker": "Receptionist", "textEn": "Welcome to Grand Palace Hotel. How may I help you?", "textTr": "Grand Palace Otele hoş geldiniz. Size nasıl yardımcı olabilirim?" },
+      { "speaker": "Guest", "textEn": "Hello! I have a reservation under the name David Miller.", "textTr": "Merhaba! David Miller adına bir rezervasyonum var." },
+      { "speaker": "Receptionist", "textEn": "Yes, Mr. Miller. A single room for three nights, correct?", "textTr": "Evet Bay Miller. Üç gecelik tek kişilik oda, doğru mu?" },
+      { "speaker": "Guest", "textEn": "Yes, that is correct.", "textTr": "Evet, doğru." },
+      { "speaker": "Receptionist", "textEn": "Here is your keycard for room 405 on the fourth floor.", "textTr": "İşte dördüncü kattaki 405 numaralı odanızın anahtar kartı." },
+      { "speaker": "Guest", "textEn": "Thank you. What time is breakfast served in the morning?", "textTr": "Teşekkürler. Sabah kahvaltısı saat kaçta servis ediliyor?" },
+      { "speaker": "Receptionist", "textEn": "Breakfast is served from 7:00 AM to 10:30 AM in the restaurant.", "textTr": "Kahvaltı restoranda sabah 7:00 ile 10:30 arasında servis edilmektedir." },
+      { "speaker": "Guest", "textEn": "Great. What is the Wi-Fi password for the room?", "textTr": "Harika. Oda için Wi-Fi şifresi nedir?" },
+      { "speaker": "Receptionist", "textEn": "The Wi-Fi network is GrandGuest and the password is on your keycard.", "textTr": "Wi-Fi ağı GrandGuest, şifre ise anahtar kartınızın üzerinde yazıyor." },
+      { "speaker": "Guest", "textEn": "Perfect. Thank you for all your help!", "textTr": "Mükemmel. Tüm yardımlarınız için teşekkür ederim!" }
+    ],
+    "keyPhrases": [
+      { "phrase": "I have a reservation under the name...", "meaning": "... adına bir rezervasyonum var." },
+      { "phrase": "What time is breakfast served?", "meaning": "Kahvaltı saat kaçta servis ediliyor?" },
+      { "phrase": "What is the Wi-Fi password?", "meaning": "Wi-Fi şifresi nedir?" },
+      { "phrase": "What time is check-out?", "meaning": "Otelden çıkış saati kaçtır?" }
+    ],
+    "quiz": [
+      {
+        "question": "Otele vardığınızda rezervasyonunuz olduğunu nasıl söylersiniz?",
+        "options": ["I have a reservation under the name...", "Where is my room?", "I want a free room.", "Who are you?"],
+        "answerIndex": 0,
+        "explanation": "'I have a reservation under the name...' kalıbı standart rezervasyon bildirme kalıbıdır."
+      },
+      {
+        "question": "'What time is check-out?' sorusu ne anlama gelir?",
+        "options": ["Odaya giriş saati kaçtır?", "Otelden çıkış saati kaçtır?", "Kahvaltı ne zaman biter?", "Akşam yemeği saat kaçta?"],
+        "answerIndex": 1,
+        "explanation": "'Check-out' otelden ayrılış / odayı boşaltma anlamına gelir."
+      },
+      {
+        "question": "'Room 405 on the fourth floor' neresidir?",
+        "options": ["4. kattaki 405 numaralı oda", "5. kattaki 404 numaralı oda", "Giriş katındaki oda", "Bodrum kattaki oda"],
+        "answerIndex": 0,
+        "explanation": "'Fourth floor' 4. kat demektir."
+      },
+      {
+        "question": "Resepsiyona Wi-Fi şifresini sormak için hangisi kullanılır?",
+        "options": ["What is the Wi-Fi password?", "Do you like internet?", "Where is your computer?", "Can I call you?"],
+        "answerIndex": 0,
+        "explanation": "'What is the Wi-Fi password?' Wi-Fi şifresi nedir sorusudur."
+      },
+      {
+        "question": "'Breakfast is included in the price.' ne anlama gelir?",
+        "options": ["Kahvaltı çok pahalıdır.", "Kahvaltı fiyata dahildir.", "Kahvaltı servisi yoktur.", "Kahvaltı odada yenmelidir."],
+        "answerIndex": 1,
+        "explanation": "'Included in the price' fiyata dahil demektir."
+      }
+    ]
+  },
+  {
+    "id": "scenario-shopping",
+    "title": "Alışveriş & Mağaza Diyaloğu",
+    "englishTitle": "Shopping & Asking Prices",
+    "icon": "ShoppingBag",
+    "category": "Alışveriş",
+    "description": "Kıyafet veya ürün bakma, beden sorma, deneme kabini arama ve fiyat öğrenme.",
+    "dialogues": [
+      { "speaker": "Shop Assistant", "textEn": "Hello! Can I help you find anything today?", "textTr": "Merhaba! Bugün bir şey bulmanıza yardımcı olabilir miyim?" },
+      { "speaker": "Shopper", "textEn": "Hi, I am looking for a warm jacket for winter.", "textTr": "Selam, kış için sıcak tutan bir ceket arıyorum." },
+      { "speaker": "Shop Assistant", "textEn": "We have these new winter jackets right here. What size are you?", "textTr": "Tam burada yeni kışlık ceketlerimiz var. Bedeniniz nedir?" },
+      { "speaker": "Shopper", "textEn": "I usually wear medium. Have you got this in black?", "textTr": "Genelde medium (orta) giyerim. Bunun siyah rengi var mı?" },
+      { "speaker": "Shop Assistant", "textEn": "Yes, here is a medium in black.", "textTr": "Evet, işte siyah renkte medium beden." },
+      { "speaker": "Shopper", "textEn": "Can I try it on? Where are the fitting rooms?", "textTr": "Deneyebilir miyim? Deneme kabinleri nerede?" },
+      { "speaker": "Shop Assistant", "textEn": "The fitting rooms are straight ahead on the left.", "textTr": "Deneme kabinleri hemen ileride solda." },
+      { "speaker": "Shopper", "textEn": "It fits perfectly! How much is it?", "textTr": "Üzerime tam oldu! Fiyatı ne kadar?" },
+      { "speaker": "Shop Assistant", "textEn": "It is eighty dollars, but today there is a twenty percent discount.", "textTr": "Seksen dolar, ancak bugün yüzde yirmi indirim var." },
+      { "speaker": "Shopper", "textEn": "Great, I will take it! Do you accept contactless payment?", "textTr": "Harika, alıyorum! Temassız ödeme kabul ediyor musunuz?" }
+    ],
+    "keyPhrases": [
+      { "phrase": "How much is this?", "meaning": "Bu ne kadar?" },
+      { "phrase": "Can I try it on?", "meaning": "Deneyebilir miyim (üzerime)?" },
+      { "phrase": "Where are the fitting rooms?", "meaning": "Deneme kabinleri nerede?" },
+      { "phrase": "I will take it.", "meaning": "Bunu alıyorum / satın alacağım." }
+    ],
+    "quiz": [
+      {
+        "question": "Bir kıyafeti denemek istediğinizde ne söylersiniz?",
+        "options": ["Can I try it on?", "Where is the exit?", "How do you wear it?", "Is it clean?"],
+        "answerIndex": 0,
+        "explanation": "'Can I try it on?' kıyafeti denemek için kullanılan standart kalıptır."
+      },
+      {
+        "question": "'Where are the fitting rooms?' sorusu neyi sorar?",
+        "options": ["Kasadaki sırayı", "Deneme kabinlerinin nerede olduğunu", "Tuvaletlerin yerini", "Otoparkın yerini"],
+        "answerIndex": 1,
+        "explanation": "'Fitting rooms' deneme kabinleri demektir."
+      },
+      {
+        "question": "Bir ürünün fiyatını öğrenmek için hangisi sorulur?",
+        "options": ["How old is this?", "How many is this?", "How much is this?", "Where is this?"],
+        "answerIndex": 2,
+        "explanation": "Fiyat sormak için 'How much is this?' kullanılır."
+      },
+      {
+        "question": "'It fits perfectly!' ne anlama gelir?",
+        "options": ["Rengi çok kötü!", "Üzerime tam oturdu / cuk diye oldu!", "Çok dar geldi.", "Bunu beğenmedim."],
+        "answerIndex": 1,
+        "explanation": "'Fits perfectly' bedenin üzerinize kusursuzca uyduğunu ifade eder."
+      },
+      {
+        "question": "Mağazada bir ürünü almaya karar verdiğinizde ne dersiniz?",
+        "options": ["I will take it.", "Put it back.", "I don't have money.", "Leave me alone."],
+        "answerIndex": 0,
+        "explanation": "'I will take it' (Bunu alıyorum) satın alma kararını bildiren en doğal ifadedir."
+      }
+    ]
+  },
+  {
+    "id": "scenario-doctor",
+    "title": "Doktorda & Eczanede Sağlık Diyaloğu",
+    "englishTitle": "At the Doctor & Pharmacy",
+    "icon": "HeartPulse",
+    "category": "Sağlık",
+    "description": "Şikayetleri anlatma (baş ağrısı, boğaz ağrısı, ateş), reçete alma ve ilaç kullanım talimatları.",
+    "dialogues": [
+      { "speaker": "Doctor", "textEn": "Hello, take a seat. What seems to be the problem today?", "textTr": "Merhaba, lütfen oturun. Bugün şikayetiniz nedir?" },
+      { "speaker": "Patient", "textEn": "I feel terrible. I have a sore throat and a bad headache.", "textTr": "Çok kötü hissediyorum. Boğazım ağrıyor ve fena bir baş ağrım var." },
+      { "speaker": "Doctor", "textEn": "How long have you had these symptoms?", "textTr": "Bu belirtiler ne zamandır var?" },
+      { "speaker": "Patient", "textEn": "For about three days now. I also have a mild fever.", "textTr": "Yaklaşık üç gündür. Ayrıca hafif bir ateşim de var." },
+      { "speaker": "Doctor", "textEn": "Let me examine your throat and listen to your chest.", "textTr": "Boğazınızı muayene edeyim ve göğsünüzü dinleyeyim." },
+      { "speaker": "Doctor", "textEn": "It looks like a throat infection. You should rest for a few days.", "textTr": "Boğaz enfeksiyonu gibi görünüyor. Birkaç gün dinlenmelisiniz." },
+      { "speaker": "Patient", "textEn": "Do I need an antibiotic?", "textTr": "Antibiyotiğe ihtiyacım var mı?" },
+      { "speaker": "Doctor", "textEn": "Yes, I will prescribe an antibiotic and some painkillers for the headache.", "textTr": "Evet, bir antibiyotik ve baş ağrısı için ağrı kesici yazacağım." },
+      { "speaker": "Patient", "textEn": "How often should I take this medicine?", "textTr": "Bu ilacı ne sıklıkla almalıyım?" },
+      { "speaker": "Doctor", "textEn": "Take one tablet twice a day after meals, with plenty of water.", "textTr": "Yemeklerden sonra bol suyla günde iki kez bir tablet alın." }
+    ],
+    "keyPhrases": [
+      { "phrase": "I have a headache / stomachache.", "meaning": "Başım / karnım ağrıyor." },
+      { "phrase": "I have a sore throat.", "meaning": "Boğazım ağrıyor." },
+      { "phrase": "How often should I take this?", "meaning": "Bunu ne sıklıkla almalıyım?" },
+      { "phrase": "After meals / before meals", "meaning": "Yemeklerden sonra / önce" }
+    ],
+    "quiz": [
+      {
+        "question": "'I have a sore throat.' ne anlama gelir?",
+        "options": ["Karnım ağrıyor.", "Boğazım ağrıyor.", "Başım dönüyor.", "Dişim ağrıyor."],
+        "answerIndex": 1,
+        "explanation": "'Sore throat' boğaz ağrısı demektir."
+      },
+      {
+        "question": "Doktor 'What seems to be the problem?' diye sorduğunda neyi öğrenmek istiyordur?",
+        "options": ["Adınızı", "Şikayetinizin ne olduğunu", "Nerede çalıştığınızı", "Kaç yaşında olduğunuzu"],
+        "answerIndex": 1,
+        "explanation": "'What seems to be the problem?' doktorun hastaya 'Şikayetiniz nedir?' diye sorma kalıbıdır."
+      },
+      {
+        "question": "İlacı ne sıklıkla almanız gerektiğini doktora nasıl sorarsınız?",
+        "options": ["How often should I take this medicine?", "How much is this medicine?", "Where is the pharmacy?", "Can I drink water?"],
+        "answerIndex": 0,
+        "explanation": "'How often should I take this medicine?' ne sıklıkla almalıyım sorusudur."
+      },
+      {
+        "question": "'Take one tablet twice a day after meals.' talimatı ne demektir?",
+        "options": [
+          "Günde iki kez yemeklerden sonra bir tablet alın.",
+          "Günde bir kez yemekten önce iki tablet alın.",
+          "Haftada bir kez alın.",
+          "Sadece yatmadan önce için."
+        ],
+        "answerIndex": 0,
+        "explanation": "'Twice a day' günde iki kez, 'after meals' yemeklerden sonra demektir."
+      },
+      {
+        "question": "Hangisi 'ateş' anlamına gelen kelimedir?",
+        "options": ["Cough", "Fever", "Pain", "Blood"],
+        "answerIndex": 1,
+        "explanation": "'Fever' vücut ısısı / yüksek ateş demektir."
+      }
+    ]
+  }
+]
