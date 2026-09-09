@@ -11,5 +11,10 @@
   },
   "devDependencies": {
     "concurrently": "^9.1.2"
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ]
 }
